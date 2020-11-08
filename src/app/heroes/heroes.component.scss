@@ -1,0 +1,11 @@
+.hero {
+  background-color: grey;
+}
+
+div {
+  border: 1px solid rgb(11, 127, 236);
+}
+
+:host ::ng-deeep div {
+  border: 5px solid green;
+}
